@@ -16,4 +16,38 @@ public class MenuItem {
         this.category = category;
         this.dateAdded = new Date();
     }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public Date getDateAdded() {
+        return dateAdded;
+    }
+
 }
+
