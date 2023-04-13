@@ -49,5 +49,11 @@ public class MenuItem {
         return dateAdded;
     }
 
+    public String toString(){
+        return "Name: "+name+
+                " Description: "+description+
+                " Price: $"+price+dateAdded;
+    }
+
 }
 
